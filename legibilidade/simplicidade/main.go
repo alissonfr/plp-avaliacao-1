@@ -39,10 +39,10 @@ func main() {
 
 	usuario.SetNome("mario da silva")
 	usuario.SetIdade(28)
-	fmt.Println(usuario)
+	fmt.Println(usuario.String())
 
 	usuario.ComemorarAniversario()
-	fmt.Println(usuario)
+	fmt.Println(usuario.String())
 
 	if strings.HasPrefix(usuario.GetNome(), "mario") {
 		fmt.Println("é mario")

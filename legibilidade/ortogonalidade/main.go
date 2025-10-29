@@ -67,7 +67,7 @@ func main() {
 	fmt.Println(usuarios)
 
 	usuario := usuarios[id2]
-	fmt.Println(usuario)
+	fmt.Println(usuario.String())
 
 	delete(usuarios, id1)
 	fmt.Println(usuarios)
