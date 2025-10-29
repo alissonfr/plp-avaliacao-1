@@ -1,4 +1,4 @@
-package escrita
+package main
 
 import "fmt"
 

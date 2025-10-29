@@ -4,7 +4,6 @@ import "fmt"
 
 const divisor float64 = 10
 
-// TIPAGEM EM GO: FORTE, ESTÁTICA e INFERIDA/IMPLÍCITA
 func somar(a int, b int) int {
 	resultado := a + b
 
@@ -39,4 +38,3 @@ func main() {
 	resultado := somarDividir(5, 4)
 	fmt.Printf("resultados (soma, divisão): %d, %.2f\n", resultado.Soma, resultado.Divisao)
 }
-

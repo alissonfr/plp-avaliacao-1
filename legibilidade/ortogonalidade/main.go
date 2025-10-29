@@ -50,8 +50,6 @@ func criarId(usuario Usuario) uint32 {
 }
 
 func main() {
-	// map -> Dicionario
-	// TAD -> TIPO ABSTRATO DE DADOS
 	usuarios := make(map[uint32]Usuario)
 
 	mario := criarUsuario("mario da silva", 28)
@@ -74,4 +72,3 @@ func main() {
 	delete(usuarios, id1)
 	fmt.Println(usuarios)
 }
-

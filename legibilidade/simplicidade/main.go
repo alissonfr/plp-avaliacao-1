@@ -50,4 +50,3 @@ func main() {
 		fmt.Println("não é mario")
 	}
 }
-

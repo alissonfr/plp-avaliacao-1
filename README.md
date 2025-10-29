@@ -2,19 +2,6 @@
 
 Este trabalho apresenta implementações em **Golang** (Go) para demonstrar os critérios de avaliação de linguagens de programação: **LEGIBILIDADE** e **FACILIDADE DE ESCRITA**, com foco nas características de **SIMPLICIDADE** e **ORTOGONALIDADE**.
 
-## Estrutura do Projeto
-
-```
-plp-av1/
-├── escrita/                    # FACILIDADE DE ESCRITA
-│   ├── simplicidade/          # Característica: Simplicidade
-│   └── ortogonalidade/        # Característica: Ortogonalidade
-├── legibilidade/               # LEGIBILIDADE
-│   ├── simplicidade/          # Característica: Simplicidade
-│   ├── ortogonalidade/        # Característica: Ortogonalidade
-│   └── tipagem_sintaxe/       # Tipagem e Sintaxe
-```
-
 ## Comparações Implementadas
 
 ### 1. FACILIDADE DE ESCRITA
